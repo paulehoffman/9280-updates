@@ -73,7 +73,14 @@ A new policy that would exist in Section 7 of {{RFC9280}} was added:
 
 # Processing Drafts from the RSWG
 
+%% RSAB role in running the full-community last call, specifically deciding when it is finished and what the RSWG Chairs should do after that %%
+
 # Processes that Affect Internet Draft Processing before RFC Submission
 
+%% Where 7991 vocabulary that is draft-specific is defined %%
+
+%% What rules there are for draft format going into the RPC, if any %%
+
+%% Probably not for this document: Who specifies what the rules for draft submission are (currently the IESG) %%
 
 --- back
