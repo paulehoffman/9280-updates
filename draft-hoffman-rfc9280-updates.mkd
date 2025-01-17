@@ -20,6 +20,7 @@ author:
    email: paul.hoffman@icann.org
 
 normative:
+  RFC8711:
   RFC9280:
   I-D.draft-rswg-rfc7990-updates:
 
@@ -46,11 +47,9 @@ As these structures and processes have been exercised, the community has found p
 In addition, gaps in some of the processes have been found.
 This document updates {{RFC9280}} based on these findings.
 
-Given that there are still many lessons to be learned about {{RFC9280}}, the author prefers not to finish this document before 2026.
-
 # Updates from "RFC Formats and Versions"
 
-{{I-D.draft-rswg-rfc7990-updates}}, "RFC Formats and Versions", updated RFC 9280
+{{I-D.draft-rswg-rfc7990-updates}}, "RFC Formats and Versions", updated RFC 9280.
 
 ## RFCs May Be Reissued
 
@@ -60,7 +59,7 @@ Section 7.6 of {{RFC9280}} currently says:
 
 That sentence was replaced with:
 
-> Once published, RFCs may be re-issued, but the semantic content of publication versions shall be preserved to the greatest extent possible.
+> Once published, RFCs may be reissued, but the semantic content of publication versions shall be preserved to the greatest extent possible.
 
 ## Consistency Policy
 
@@ -68,8 +67,17 @@ A new policy that would exist in Section 7 of {{RFC9280}} was added:
 
 > 7.8.  Consistency
 > 
-> RFCs are copyedited, formatted, published, and may be reissued to maintain a consistent presentation.
+> RFCs are copyedited, formatted, and then published.  They may be reissued to maintain a consistent presentation.
 
+# Purview of the RSWG and RSAB
+
+Section 3 of {{RFC9280}} currently says:
+
+> Policies under the purview of the RSWG and RSAB might include, but are not limited to, document formats, processes for publication and dissemination of RFCs, and overall management of the RFC Series.
+
+The following is added immediately following that seentence:
+
+> Such policies will not include detailed technical specifications, for example specific details of text or graphical formats or XML grammar. Such matters will be decided and documented by the RPC along with its other working practices, as discussed in section 4.2 of {{RFC9280}}, with community consultation as for other tools and services supported by IETF LLC {{RFC8711}}."
 
 # Processing Drafts from the RSWG
 
