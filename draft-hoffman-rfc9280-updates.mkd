@@ -47,6 +47,16 @@ As these structures and processes have been exercised, the community has found p
 In addition, gaps in some of the processes have been found.
 This document updates {{RFC9280}} based on these findings.
 
+# Methods for Updating RFC 9280
+
+Section 8 of {{RFC9280}} currently says:
+
+> Updates, amendments, and refinements to this document can be produced using the process documented herein but shall be published and operative only after (a) obtaining the agreement of the IAB and the IESG and (b) ensuring that the IETF LLC has no objections regarding its ability to implement any proposed changes.
+
+This sentence is replaced with:
+
+> Updates, amendments, and refinements to this document can be produced using the process documented herein but, unless otherwise specified in this document, shall be published and operative only after (a) obtaining the agreement of the IAB and the IESG and (b) ensuring that the IETF LLC has no objections regarding its ability to implement any proposed changes.
+
 # Updates from "RFC Formats and Versions"
 
 {{I-D.draft-rswg-rfc7990-updates}}, "RFC Formats and Versions", updated RFC 9280.
@@ -90,5 +100,13 @@ The following is added immediately following that seentence:
 %% What rules there are for draft format going into the RPC, if any %%
 
 %% Probably not for this document: Who specifies what the rules for draft submission are (currently the IESG) %%
+
+# Security Considerations
+
+There are no security considerations for the changes listed in this document.
+
+# IANA Considerations
+
+This document contains no actions for IANA.
 
 --- back
