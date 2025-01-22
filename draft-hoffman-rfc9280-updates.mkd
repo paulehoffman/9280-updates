@@ -1,7 +1,7 @@
 ---
 title: Updates to RFC Editor Model (Version 3)
 abbrev: RFC 9280 updates
-docname: draft-hoffman-rfc9280-updates-00
+docname: draft-hoffman-rfc9280-updates-01
 
 stand_alone: true
 v: 3
@@ -18,6 +18,11 @@ author:
    name: Paul Hoffman
    org: ICANN
    email: paul.hoffman@icann.org
+ -
+  ins: A. Rossi
+  fullname: "Alexis Rossi"
+  organization: RFC Series Consulting Editor
+  email: "rsce@rfc-editor.org"
 
 normative:
   RFC8711:
