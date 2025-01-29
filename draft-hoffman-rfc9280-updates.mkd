@@ -1,11 +1,11 @@
 ---
-title: Updates to RFC Editor Model (Version 3)
+title: RFC Editor Model (Version 4)
 abbrev: RFC 9280 updates
 docname: draft-hoffman-rfc9280-updates-01
 
 stand_alone: true
 v: 3
-updates: 9280
+updates: 7990, 7991, 7992, 7993, 7994, 7995, 7996, 7997, 9280
 
 ipr: trust200902
 kw: Internet-Draft
@@ -26,16 +26,26 @@ author:
 
 normative:
   RFC8711:
+  RFC7990:
+  RFC7991:
+  RFC7992:
+  RFC7993:
+  RFC7994:
+  RFC7995:
+  RFC7996:
+  RFC7997:
   RFC9280:
-  I-D.draft-rswg-rfc7990-updates:
+  RFC9720:
 
 informative:
+  RFC3935:
 
 --- abstract
 
 RFC 9280 specifies version 3 of the RFC Editor Model.
 Since its publication, lessons have been learned about implementing this model.
 This document lists some of those lessons learned and updates RFC 9280 based on that experience.
+It can be considered version 4 of that model.
 
 <!--
 This draft is part of the RFC Series Working Group (RSWG); see <https://datatracker.ietf.org/edwg/rswg/documents/>.
@@ -50,11 +60,14 @@ There is a repository for this draft at <https://github.com/paulehoffman/9280-up
 Those changes created new structures and new processes for the publication of RFCs.
 As these structures and processes have been exercised, the community has found places where they might be improved.
 In addition, gaps in some of the processes have been found.
-This document updates {{RFC9280}} based on these findings.
+This document updates RFC 9280 based on these findings.
+
+An editorial note: RFC 9280 is discussed throughout this document.
+The only time it is formally referenced is above; the rest of the time, it is simply called "RFC 9280".
 
 # Methods for Updating RFC 9280
 
-Section 8 of {{RFC9280}} currently says:
+Section 8 of RFC 9280 currently says:
 
 > Updates, amendments, and refinements to this document can be produced using the process documented herein but shall be published and operative only after (a) obtaining the agreement of the IAB and the IESG and (b) ensuring that the IETF LLC has no objections regarding its ability to implement any proposed changes.
 
@@ -62,13 +75,91 @@ This sentence is replaced with:
 
 > Updates, amendments, and refinements to this document can be produced using the process documented herein but, unless otherwise specified in this document, shall be published and operative only after (a) obtaining the agreement of the IAB and the IESG and (b) ensuring that the IETF LLC has no objections regarding its ability to implement any proposed changes.
 
+# RPC Roles and Responsibilities
+
+RFC 9280 created a new structure for the RFC Editor function. It established the RFC Series Working Group (RSWG) and the RFC Series Approval Board (RSAB), and gave new responsibilities to the RFC Production Center (RPC).
+Broadly speaking, it says that RSWG writes policies for the editorial stream, RSAB approves those policies, and the RPC implements those policies. 
+However RFC 9280 does not specify which group is responsible for defining or building the specific code and tools that implement the policies agreed upon in this process.
+The rest of this section updates RFC 9280 to deal with this and other related matters.
+
+## RPC Implementation Responsibilities
+
+### Tooling and code used for publication of RFCs
+
+Section 2 of RFC 9280 says
+
+> Policy implementation through publication of RFCs in all of the streams that form the RFC Series. This is primarily the responsibility of the RFC Production Center (RPC) as contractually overseen by the IETF Administration Limited Liability Company (IETF LLC).
+
+The same section also states
+
+> The RPC implements the policies defined by the Editorial Stream in its day-to-day editing and publication of RFCs from all of the streams.
+
+RFC 9280 does not define any other group that is responsible for implementing policies.
+
+Throughout RFC 9280, the RSWG is consistently assigned responsibility for writing policies (not deciding on implementations).
+The RPC is consistently assigned responsibility for implementing policy decisions, but examples given generally describe decisions made at the single document level.
+RFC 9280 does not cover any specific responsibilities for designing and building the tools and code used to publish documents. 
+
+RFC 9280 mentions tool developers twice.
+In Section 3.1.1.2, it encourages “developers of tools used to author or edit RFCs and Internet-Drafts” to participate in the RSWG.
+Section 3.2.1 says that “RSAB members should consult with their constituent stakeholders (e.g., authors, editors, tool developers, and consumers of RFCs) on an ongoing basis”.
+
+Section 4.2 of RFC 9280 mentions a specific implementation when discussing the working practices of the RPC.
+
+> In the absence of a high-level policy documented in an RFC or in the interest of specifying the detail of its implementation of such policies, the RPC can document … Guidelines regarding the final structure and layout of published documents. In the context of the XML vocabulary [RFC7991], such guidelines could include clarifications regarding the preferred XML elements and attributes used to capture the semantic content of RFCs.
+
+{{RFC7991}} is the only editorial implementation-related RFC mentioned in 9280.
+
+This section updates RFC 9280 to specify that the RPC is responsible for the development of tools and processes used to implement editorial stream policies, in the absence of an RFC with specific requirements.
+The RPC may designate a team of volunteers and/or employees who implement these operational decisions.
+The RPC is expected to solicit input from experts and community members when making implementation decisions.
+The RPC is required to document implementation decisions in a publicly available place, preferably with rationale.
+
+If the  RPC has questions about how to interpret policy in Editorial stream documents, they should ask RSAB for guidance in interpreting that policy per the process described in Section 4.4 of RFC 9280.
+
+### Conflict Resolution for Implementation Decisions
+
+Section 4.4 of RFC 9280 provides a pathway for resolution of conflicts between the RPC and the author(s) of a specific document.
+No appeal pathway is given for resolution of issues that may occur when a conflict arises with an implementation decision that applies to the entire editorial process (not just one document).
+
+If the RPC is responsible for interpreting policy decisions at both the document and editorial process tooling level, conflicts on either level will involve interpretation of written policy (or the acknowledgement that policy does not exist to cover a given situation).
+In any case, the conflict resolution will now use the same path of appeal: to the RSAB.
+
+## RFC Consumers
+
+The IETF mission statement {{RFC3935}} is clear that the documents it produces are intended to be consumed by anyone who wishes to implement an IETF protocol or operational recommendation:
+
+> to produce high quality, relevant technical and engineering documents that influence the way people design, use, and manage the Internet in such a way as to make the Internet work better.
+
+Section 3.2.1 of RFC 9280 introduces the term “consumers of RFCs”, referring to them as “constituent stakeholders” who should be considered by RSAB when approving Editorial Stream policy documents.
+
+“Consumers of RFCs” is now defined to mean those people who read RFCs to understand, implement, critique, and research the protocols, operational practices and other content, as found in RFCs. 
+
+The policy to be followed by the RFC publication streams and RFC Editor in respect of consumers of RFCs is as follows:
+
+- Consumers of RFCs MUST be considered as a separate constituent stakeholder from IETF/IRTF participants.
+While IETF/IRTF participants and others involved in the development and production of RFCs may be consumers of RFCs, the two are distinct, overlapping sets.
+
+- The [RFC Editor website](https://www.rfc-editor.org) MUST be primarily focused on consumers of RFCs.
+
+- Consumers of RFCs MUST NOT be required or expected to become IETF/IRTF participants, but it MAY be recommended or suggested that they do so.
+
+Responsibility for representing the interests of consumers of RFCs in the Editorial Stream process as defined in RFC 9280, is assigned to the RPC.
+The RPC should represent consumers of RFCs to the best of their ability given the information and tools available to them, both within RSWG and as ex-officio members of RSAB.
+The RPC may solicit information from other individuals, groups or experts, or directly from consumers of RFCs, including by tracking traffic or interactions on the RFC Editor's website within the constraints of the privacy statement available on that site.
+
+## Updates to RFCs 7990 through 7997
+
+All instances of “RFC Editor” or “RFC Series Editor” in {{RFC7990}}, {{RFC7991}}, {{RFC7992}}, {{RFC7993}}, {{RFC7994}}, {{RFC7995}}, {{RFC7996}}, and {{RFC7997}} are replaced by “RFC Production Center (RPC)”. 
+
+
 # Updates from "RFC Formats and Versions"
 
-{{I-D.draft-rswg-rfc7990-updates}}, "RFC Formats and Versions", updated RFC 9280.
+{{RFC9720}}, "RFC Formats and Versions", updated RFC 9280.
 
 ## RFCs May Be Reissued
 
-Section 7.6 of {{RFC9280}} currently says:
+Section 7.6 of RFC 9280 currently says:
 
 > Once published, RFC Series documents are not changed.
 
@@ -78,7 +169,7 @@ That sentence was replaced with:
 
 ## Consistency Policy
 
-A new policy that would exist in Section 7 of {{RFC9280}} was added:
+A new policy that would exist in Section 7 of RFC 9280 was added:
 
 > 7.8.  Consistency
 > 
@@ -86,17 +177,19 @@ A new policy that would exist in Section 7 of {{RFC9280}} was added:
 
 # Purview of the RSWG and RSAB
 
-Section 3 of {{RFC9280}} currently says:
+Section 3 of RFC 9280 currently says:
 
 > Policies under the purview of the RSWG and RSAB might include, but are not limited to, document formats, processes for publication and dissemination of RFCs, and overall management of the RFC Series.
 
 The following is added immediately following that seentence:
 
-> Such policies will not include detailed technical specifications, for example specific details of text or graphical formats or XML grammar. Such matters will be decided and documented by the RPC along with its other working practices, as discussed in section 4.2 of {{RFC9280}}, with community consultation as for other tools and services supported by IETF LLC {{RFC8711}}."
+> Such policies will not include detailed technical specifications, for example specific details of text or graphical formats or XML grammar. Such matters will be decided and documented by the RPC along with its other working practices, as discussed in section 4.2 of RFC 9280, with community consultation as for other tools and services supported by IETF LLC {{RFC8711}}."
 
 # Processing Drafts from the RSWG
 
 %% RSAB role in running the full-community last call, specifically deciding when it is finished and what the RSWG Chairs should do after that %%
+
+%% Which mailing list(s) should be used for discussing drafts after the RSWG passes them to the RSAB %%
 
 # Processes that Affect Internet Draft Processing before RFC Submission
 
