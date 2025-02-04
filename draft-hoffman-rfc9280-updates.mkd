@@ -101,8 +101,8 @@ The RPC is consistently assigned responsibility for implementing policy decision
 RFC 9280 does not cover any specific responsibilities for designing and building the tools and code used to publish documents. 
 
 RFC 9280 mentions tool developers twice.
-In Section 3.1.1.2, it encourages “developers of tools used to author or edit RFCs and Internet-Drafts” to participate in the RSWG.
-Section 3.2.1 says that “RSAB members should consult with their constituent stakeholders (e.g., authors, editors, tool developers, and consumers of RFCs) on an ongoing basis”.
+In Section 3.1.1.2, it encourages "developers of tools used to author or edit RFCs and Internet-Drafts" to participate in the RSWG.
+Section 3.2.1 says that "RSAB members should consult with their constituent stakeholders (e.g., authors, editors, tool developers, and consumers of RFCs) on an ongoing basis".
 
 Section 4.2 of RFC 9280 mentions a specific implementation when discussing the working practices of the RPC.
 
@@ -131,9 +131,9 @@ The IETF mission statement {{RFC3935}} is clear that the documents it produces a
 
 > to produce high quality, relevant technical and engineering documents that influence the way people design, use, and manage the Internet in such a way as to make the Internet work better.
 
-Section 3.2.1 of RFC 9280 introduces the term “consumers of RFCs”, referring to them as “constituent stakeholders” who should be considered by RSAB when approving Editorial Stream policy documents.
+Section 3.2.1 of RFC 9280 introduces the term "consumers of RFCs", referring to them as "constituent stakeholders" who should be considered by RSAB when approving Editorial Stream policy documents.
 
-“Consumers of RFCs” is now defined to mean those people who read RFCs to understand, implement, critique, and research the protocols, operational practices and other content, as found in RFCs. 
+"Consumers of RFCs" is now defined to mean those people who read RFCs to understand, implement, critique, and research the protocols, operational practices and other content, as found in RFCs. 
 
 The policy to be followed by the RFC publication streams and RFC Editor in respect of consumers of RFCs is as follows:
 
@@ -150,7 +150,7 @@ The RPC may solicit information from other individuals, groups or experts, or di
 
 ## Updates to RFCs 7990 through 7997
 
-All instances of “RFC Editor” or “RFC Series Editor” in {{RFC7990}}, {{RFC7991}}, {{RFC7992}}, {{RFC7993}}, {{RFC7994}}, {{RFC7995}}, {{RFC7996}}, and {{RFC7997}} are replaced by “RFC Production Center (RPC)”. 
+All instances of "RFC Editor" or "RFC Series Editor" in {{RFC7990}}, {{RFC7991}}, {{RFC7992}}, {{RFC7993}}, {{RFC7994}}, {{RFC7995}}, {{RFC7996}}, and {{RFC7997}} are replaced by "RFC Production Center (RPC)". 
 
 
 # Updates from "RFC Formats and Versions"
