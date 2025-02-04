@@ -106,7 +106,7 @@ Section 3.2.1 says that "RSAB members should consult with their constituent stak
 
 Section 4.2 of RFC 9280 mentions a specific implementation when discussing the working practices of the RPC.
 
-> In the absence of a high-level policy documented in an RFC or in the interest of specifying the detail of its implementation of such policies, the RPC can document … Guidelines regarding the final structure and layout of published documents. In the context of the XML vocabulary [RFC7991], such guidelines could include clarifications regarding the preferred XML elements and attributes used to capture the semantic content of RFCs.
+> In the absence of a high-level policy documented in an RFC or in the interest of specifying the detail of its implementation of such policies, the RPC can document ... Guidelines regarding the final structure and layout of published documents. In the context of the XML vocabulary [RFC7991], such guidelines could include clarifications regarding the preferred XML elements and attributes used to capture the semantic content of RFCs.
 
 {{RFC7991}} is the only editorial implementation-related RFC mentioned in 9280.
 
