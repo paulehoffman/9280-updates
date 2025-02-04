@@ -181,7 +181,7 @@ Section 3 of RFC 9280 currently says:
 
 > Policies under the purview of the RSWG and RSAB might include, but are not limited to, document formats, processes for publication and dissemination of RFCs, and overall management of the RFC Series.
 
-The following is added immediately following that seentence:
+The following is added immediately following that sentence:
 
 > Such policies will not include detailed technical specifications, for example specific details of text or graphical formats or XML grammar. Such matters will be decided and documented by the RPC along with its other working practices, as discussed in section 4.2 of RFC 9280, with community consultation as for other tools and services supported by IETF LLC {{RFC8711}}."
 
