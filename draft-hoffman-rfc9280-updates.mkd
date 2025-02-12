@@ -190,14 +190,6 @@ The following is added immediately following that sentence:
 
 %% Which mailing list(s) should be used for discussing drafts after the RSWG passes them to the RSAB %%
 
-# Processes that Affect Internet Draft Processing before RFC Submission
-
-%% Where 7991 vocabulary that is draft-specific is defined %%
-
-%% What rules there are for draft format going into the RPC, if any %%
-
-%% Probably not for this document: Who specifies what the rules for draft submission are (currently the IESG) %%
-
 # Security Considerations
 
 There are no security considerations for the changes listed in this document.
