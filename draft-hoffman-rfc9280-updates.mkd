@@ -188,9 +188,7 @@ The following is added immediately following that sentence:
 
 # Processing Drafts from the RSWG
 
-%% RSAB role in running the full-community last call, specifically deciding when it is finished and what the RSWG Chairs should do after that %%
-
-%% Which mailing list(s) should be used for discussing drafts after the RSWG passes them to the RSAB %%
+%% RSAB role in running the full-community last call, such as deciding when it is finished, what the RSWG Chairs should do after that, mailing lists, and so on. %%
 
 # Security Considerations
 
