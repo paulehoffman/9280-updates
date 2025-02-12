@@ -1,5 +1,5 @@
 ---
-title: RFC Editor Model (Version 4)
+title: RFC Editor Model
 abbrev: RFC 9280 updates
 docname: draft-hoffman-rfc9280-updates-02
 
@@ -45,7 +45,6 @@ informative:
 RFC 9280 specifies version 3 of the RFC Editor Model.
 Since its publication, lessons have been learned about implementing this model.
 This document lists some of those lessons learned and updates RFC 9280 based on that experience.
-It can be considered version 4 of that model.
 
 <!--
 This draft is part of the RFC Series Working Group (RSWG); see <https://datatracker.ietf.org/edwg/rswg/documents/>.
