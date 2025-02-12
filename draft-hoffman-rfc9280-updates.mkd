@@ -64,6 +64,8 @@ This document updates RFC 9280 based on these findings.
 An editorial note: RFC 9280 is discussed throughout this document.
 The only time it is formally referenced is above; the rest of the time, it is simply called "RFC 9280".
 
+A later version of this document will have all the changes in place in RFC 9280.
+
 # Methods for Updating RFC 9280
 
 Section 8 of RFC 9280 currently says:
