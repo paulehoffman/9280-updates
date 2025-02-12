@@ -1,7 +1,7 @@
 ---
 title: RFC Editor Model (Version 4)
 abbrev: RFC 9280 updates
-docname: draft-hoffman-rfc9280-updates-01
+docname: draft-hoffman-rfc9280-updates-02
 
 stand_alone: true
 v: 3
