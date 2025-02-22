@@ -145,10 +145,6 @@ While IETF/IRTF participants and others involved in the development and producti
 
 - Consumers of RFCs MUST NOT be required or expected to become IETF/IRTF participants, but it MAY be recommended or suggested that they do so.
 
-Responsibility for representing the interests of consumers of RFCs in the Editorial Stream process as defined in RFC 9280, is assigned to the RPC.
-The RPC should represent consumers of RFCs to the best of their ability given the information and tools available to them, both within RSWG and as ex-officio members of RSAB.
-The RPC may solicit information from other individuals, groups or experts, or directly from consumers of RFCs, including by tracking traffic or interactions on the RFC Editor's website within the constraints of the privacy statement available on that site.
-
 ## Updates to RFCs 7990 through 7997
 
 All instances of "RFC Editor" or "RFC Series Editor" in {{RFC7990}}, {{RFC7991}}, {{RFC7992}}, {{RFC7993}}, {{RFC7994}}, {{RFC7995}}, {{RFC7996}}, and {{RFC7997}} are replaced by "RFC Production Center (RPC)". 
