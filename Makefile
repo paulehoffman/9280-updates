@@ -1,4 +1,4 @@
-all: draft-hoffman-rfc9280-updates.txt draft-hoffman-rfc9280-updates.html
+all: draft-ietf-rfc9280-updates.txt draft-ietf-rfc9280-updates.html
 
 .PRECIOUS: %.xml
 
