@@ -1,4 +1,4 @@
-all: draft-rswg-rfc9280-updates.txt draft-rswg-rfc9280-updates.html
+all: draft-editorial-rswg-rfc9280-updates.txt draft-editorial-rswg-rfc9280-updates.html
 
 .PRECIOUS: %.xml
 
