@@ -1,11 +1,12 @@
 ---
 title: RFC Editor Model
 abbrev: RFC 9280 updates
-docname: draft-editorial-rswg-rfc9280-updates-01
+docname: draft-editorial-rswg-rfc9280-updates-02
 
 stand_alone: true
 v: 3
-updates: 7990, 7991, 7992, 7993, 7994, 7995, 7996, 7997, 9280
+updates: 7990, 7991, 7992, 7993, 7994, 7995, 7996, 7997
+obsoletes: 9280
 
 ipr: trust200902
 kw: Internet-Draft
@@ -82,9 +83,9 @@ documents produced through the processes defined herein.
 
 Since the publication of RFC 9280, lessons have been learned about implementing this model.
 This document lists some of those lessons learned and updates RFC 9280 based on that experience.
+This document obsoletes RFC 9280.
 
 This document updates RFCs 7990, 7991, 7992, 7993, 7994, 7995, 7996, 7997.
-This document also updates RFC 9280 itself.
 
 This draft is part of the RFC Series Working Group (RSWG); see <https://datatracker.ietf.org/edwg/rswg/documents/>.
 There is a repository for this draft at <https://github.com/paulehoffman/9280-updates>.
@@ -131,6 +132,9 @@ More detailed information about changes from version 2 of the RFC
 Editor Model can be found in {{changes}}.
 
 ## Changes to RFC 9280
+
+This section details the changes made to RFC 9280 by the RSWG starting in 2022.
+If you are reading this document and do not care about how it was changed, you can skip directly to {{overview}}.
 
 {{RFC9280}} contained significant changes to the publication model for RFCs.
 Those changes created new structures and new processes for the publication of RFCs.
