@@ -1,7 +1,7 @@
 ---
 title: RFC Editor Model
 abbrev: RFC 9280 updates
-docname: draft-editorial-rswg-rfc9280-updates-02
+docname: draft-editorial-rswg-rfc9280-updates-03
 
 stand_alone: true
 v: 3
@@ -21,9 +21,9 @@ author:
    email: paul.hoffman@icann.org
  -
   ins: A. Rossi
-  fullname: "Alexis Rossi"
+  fullname: Alexis Rossi
   organization: RFC Series Consulting Editor
-  email: "rsce@rfc-editor.org"
+  email: rsce@rfc-editor.org
 
 normative:
   BCP78:
