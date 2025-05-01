@@ -1,11 +1,11 @@
 ---
-title: RFC Editor Model
+title: RFC Editor Model (Version 3)
 abbrev: RFC 9280 updates
 docname: draft-editorial-rswg-rfc9280-updates-03
 
 stand_alone: true
 v: 3
-updates: 7990, 7991, 7992, 7993, 7994, 7995, 7996, 7997
+updates: 7990, 7991, 7992, 7993, 7994, 7995, 7996, 7997, 8729
 obsoletes: 9280
 
 ipr: trust200902
@@ -85,7 +85,7 @@ Since the publication of RFC 9280, lessons have been learned about implementing 
 This document lists some of those lessons learned and updates RFC 9280 based on that experience.
 This document obsoletes RFC 9280.
 
-This document updates RFCs 7990, 7991, 7992, 7993, 7994, 7995, 7996, 7997.
+This document updates RFCs 7990, 7991, 7992, 7993, 7994, 7995, 7996, 7997, and 8729.
 
 This draft is part of the RFC Series Working Group (RSWG); see <https://datatracker.ietf.org/edwg/rswg/documents/>.
 There is a repository for this draft at <https://github.com/paulehoffman/9280-updates>.
@@ -105,7 +105,7 @@ RFCs are generated and approved by multiple document streams.
 Whereas the stream approving body {{RFC8729}} for each stream is
 responsible for the content of that stream, the RFC Editor function
 is responsible for the production and distribution of all RFCs.  The
-four existing streams are described in {{RFC8729}}.  This document adds
+four existing streams are described in {{RFC8729}}.  This document specifies
 a fifth stream, the Editorial Stream, for publication of policies
 governing the RFC Series as a whole.
 
@@ -122,7 +122,7 @@ support of the RFC Series based on the principles of expert
 implementation, clear management and direction, and appropriate
 community input {{RFC8729}}.
 
-This document obsoletes {{RFC8728}} by defining version 3 of the RFC
+This document defines version 3 of the RFC
 Editor Model.  This document updates {{RFC7841}} by defining
 boilerplate text for the Editorial Stream.  This document updates
 {{RFC8729}} by replacing the RFC Editor role with the RSWG, RSAB, and
@@ -131,7 +131,7 @@ certain policies specified by the IAB and RFC Series Editor (RSE).
 More detailed information about changes from version 2 of the RFC
 Editor Model can be found in {{changes}}.
 
-## Changes to RFC 9280
+## Changes to RFC 9280 {#changes-to-9280}
 
 This section details the changes made to RFC 9280 by the RSWG starting in 2022.
 If you are reading this document and do not care about how it was changed, you can skip directly to {{overview}}.
@@ -265,7 +265,12 @@ The following is added in this document immediately following that sentence:
 
 ## Updates to RFCs 7990 through 7997
 
-All instances of "RFC Editor" or "RFC Series Editor" in {{RFC7990}}, {{RFC7991}}, {{RFC7992}}, {{RFC7993}}, {{RFC7994}}, {{RFC7995}}, {{RFC7996}}, and {{RFC7997}} are replaced by "RFC Production Center (RPC)". 
+All instances of "RFC Editor" or "RFC Series Editor" in {{RFC7990}}, {{RFC7991}}, {{RFC7992}}, {{RFC7993}}, {{RFC7994}}, {{RFC7995}}, {{RFC7996}}, and {{RFC7997}} are replaced by "RFC Production Center (RPC)".
+
+## Rewording to Obsolete RFC 9280
+
+Many parts of {{RFC9280}} talked about changes to be made.
+Because this document obsoletes {{RFC9280}}, these parts were updated to indicate that the changes were made.
 
 # Overview of the Model {#overview}
 
@@ -432,7 +437,7 @@ should be considered appropriate.
 The IETF LLC is requested to provide necessary tooling to support
 RSWG communication, decision processes, and policies.
 
-The IAB is requested to convene the RSWG when it is first formed in
+The IAB convened the RSWG in 2022 in
 order to formalize the IAB's transfer of authority over the RFC
 Editor Model.
 
@@ -565,7 +570,7 @@ confidentiality requirements permit.
 The IETF LLC is requested to provide necessary tooling and staff to
 support RSAB communication, decision processes, and policies.
 
-The IAB is requested to convene the RSAB when it is first formed in
+The IAB convened the RSAB in 2022 in
 order to formalize the IAB's transfer of authority over the RFC
 Editor Model.
 
@@ -1230,19 +1235,19 @@ are outside the scope of this document.
 
 ## Procedures Request of the IETF Trust
 
-The IAB requests that the IETF Trust and its Trustees assist in
+In {{RFC9280}}, the IAB requested that the IETF Trust and its Trustees assist in
 meeting the goals and procedures set forth in this document.
 
-The Trustees are requested to publicly confirm their willingness and
+The Trustees were requested to publicly confirm their willingness and
 ability to accept responsibility for the Intellectual Property Rights
 (IPR) for the Editorial Stream.
 
-Specifically, the Trustees are asked to develop the necessary
+Specifically, the Trustees were asked to develop the necessary
 boilerplate to enable the suitable marking of documents so that the
 IETF Trust receives the rights as specified in {{BCP78}}.  These
-procedures need to also allow authors to indicate either no rights to
+procedures needed to also allow authors to indicate either no rights to
 make derivative works or, preferentially, the right to make unlimited
-derivative works from the documents.  It is left to the Trust to
+derivative works from the documents.  It was left to the Trust to
 specify exactly how this shall be clearly indicated in each document.
 
 ## Patent and Trademark Rules for the Editorial Stream
@@ -1256,7 +1261,7 @@ reasonably expected to be known, to the contributor.
 Disclosure of license terms for patents is also requested, as
 specified in {{BCP79}}.  The Editorial Stream has chosen to use the
 IETF's IPR disclosure mechanism (https://www.ietf.org/ipr/) for this
-purpose.  The IAB would prefer that the most liberal terms possible
+purpose.  It is preferred that the most liberal terms possible
 be made available for Editorial Stream documents.  Terms that do not
 require fees or licensing are preferable.  Non-discriminatory terms
 are strongly preferred over those that discriminate among users.
@@ -1379,9 +1384,10 @@ same time ensuring the continuity of the RFC Series, maintaining the
 quality and timely publication of RFCs, ensuring document
 accessibility, and clarifying lines of authority and responsibility.
 
-This document is the result of discussion within the Program and
-describes version 3 of the RFC Editor Model while remaining
+{{RFC9280}} was the result of discussion within the Program and
+described version 3 of the RFC Editor Model while remaining
 consistent with {{RFC8729}}.
+As stated earlier, this document obsoletes {{RFC9280}}.
 
 The following sections describe the changes from version 2 in more
 detail.
@@ -1446,23 +1452,23 @@ authority for policy implementation resides with the IETF LLC.
 ## RFC Series Oversight Committee (RSOC) {#rsoc}
 
 In practice, the relationships and lines of authority and
-responsibility between the IAB, RSOC, and RSE have proved unwieldy
-and somewhat opaque.  To overcome some of these issues, this document
+responsibility between the IAB, RSOC, and RSE proved unwieldy
+and somewhat opaque.  To overcome some of these issues, {{RFC9280}}
 dispenses with the RSOC.  References to the RSOC in documents such as
-{{RFC8730}} are obsolete because this document disbands the RSOC.
+{{RFC8730}} are obsolete.
 
 ## RFC Series Advisory Group (RSAG)
 
 Version 1 of the RFC Editor Model {{RFC5620}} specified the existence
 of the RFC Series Advisory Group (RSAG), which was no longer
 specified in version 2 of the RFC Editor Model.  For the avoidance of
-doubt, this document affirms that the RSAG has been disbanded.  (The
+doubt, {{RFC9280}} affirmed that the RSAG has been disbanded.  (The
 RSAG is not to be confused with the RFC Series Approval Board (RSAB),
 which this document establishes.)
 
 ## Editorial Stream
 
-This document creates the Editorial Stream in addition to the streams
+This document specifies the Editorial Stream in addition to the streams
 already described in {{RFC8729}}.
 
 # Security Considerations
@@ -1497,33 +1503,7 @@ values in existing registries, and no IANA action is required.
 
 --- back
 
-# IAB Members at the Time of Approval
-{: numbered="false"}
-
-Internet Architecture Board members at the time this document was
-approved for publication were:
-
-    Jari Arkko
-    Deborah Brungard
-    Lars Eggert
-    Wes Hardaker
-    Cullen Jennings
-    Mallory Knodel
-    Mirja Kühlewind
-    Zhenbin Li
-    Tommy Pauly
-    David Schinazi
-    Russ White
-    Qin Wu
-    Jiankang Yao
-
-This document is the product of the IAB's RFC Editor Future
-Development Program.  The RFC Editor Future Development Program
-allowed for open participation and used a rough consensus model for
-decision making.
-
-# Acknowledgments
-{: numbered="false"}
+# Acknowledgments from RFC 9280
 
 Portions of this document were borrowed from {{RFC5620}}, {{RFC6635}},
 {{RFC8728}}, {{RFC8729}}, the Frequently Asked Questions of the IETF
@@ -1542,3 +1522,9 @@ Masinter, S. Moonesamy, Russ Mundy, Mark Nottingham, Tommy Pauly,
 Colin Perkins, Julian Reschke, Eric Rescorla, Alvaro Retana, Adam
 Roach, Dan Romascanu, Doug Royer, Alice Russo, Rich Salz, John
 Scudder, Stig Venaas, Tim Wicinski, and Nico Williams.
+
+# Acknowledgements
+
+This document is the product of the RFC Series Working Group.
+Many people in the RSWG participated in the active discussions that led to the changes listed in {{changes-to-9280}}.
+The authors are indebted to them for their contributions.
