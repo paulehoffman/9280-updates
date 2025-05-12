@@ -1503,28 +1503,11 @@ values in existing registries, and no IANA action is required.
 
 --- back
 
-# Acknowledgments from RFC 9280
-
-Portions of this document were borrowed from {{RFC5620}}, {{RFC6635}},
-{{RFC8728}}, {{RFC8729}}, the Frequently Asked Questions of the IETF
-Trust, and earlier proposals submitted within the IAB's RFC Editor
-Future Development Program by Brian Carpenter, Michael StJohns, and
-Martin Thomson.  Thanks to Eliot Lear and Brian Rosen in their role
-as chairs of the Program for their leadership and assistance.  Thanks
-also for feedback and proposed text to Jari Arkko, Sarah Banks,
-Carsten Bormann, Scott Bradner, Nevil Brownlee, Ben Campbell, Jay
-Daley, Martin Dürst, Wesley Eddy, Lars Eggert, Adrian Farrel, Stephen
-Farrell, Sandy Ginoza, Bron Gondwana, Joel Halpern, Wes Hardaker, Bob
-Hinden, Russ Housley, Christian Huitema, Ole Jacobsen, Sheng Jiang,
-Benjamin Kaduk, John Klensin, Murray Kucherawy, Mirja Kühlewind, Ted
-Lemon, John Levine, Lucy Lynch, Jean Mahoney, Andrew Malis, Larry
-Masinter, S. Moonesamy, Russ Mundy, Mark Nottingham, Tommy Pauly,
-Colin Perkins, Julian Reschke, Eric Rescorla, Alvaro Retana, Adam
-Roach, Dan Romascanu, Doug Royer, Alice Russo, Rich Salz, John
-Scudder, Stig Venaas, Tim Wicinski, and Nico Williams.
-
 # Acknowledgements
 
 This document is the product of the RFC Series Working Group.
 Many people in the RSWG participated in the active discussions that led to the changes listed in {{changes-to-9280}}.
 The authors are indebted to them for their contributions.
+
+{{RFC9280}} had additional, extensive acknowledgements.
+
