@@ -227,7 +227,7 @@ While IETF/IRTF participants and others involved in the development and producti
 
 - The [RFC Editor website](https://www.rfc-editor.org) MUST be primarily focused on consumers of RFCs.
 
-- Consumers of RFCs MUST NOT be required or expected to become IETF/IRTF participants, but it MAY be recommended or suggested that they do so.
+- Consumers of RFCs MUST NOT be required or expected to become IETF/IRTF participants unless they wish to extend, update, or modify an RFC.
 
 This text is now reflected in {{rfc-consumers-definition}}.
 
@@ -855,7 +855,7 @@ While IETF/IRTF participants and others involved in the development and producti
 
 - The [RFC Editor website](https://www.rfc-editor.org) MUST be primarily focused on consumers of RFCs.
 
-- Consumers of RFCs MUST NOT be required or expected to become IETF/IRTF participants, but it MAY be recommended or suggested that they do so.
+- Consumers of RFCs MUST NOT be required or expected to become IETF/IRTF participants unless they wish to extend, update, or modify an RFC.
 
 # Policy Implementation
 
