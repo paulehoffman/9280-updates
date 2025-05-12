@@ -1384,7 +1384,7 @@ same time ensuring the continuity of the RFC Series, maintaining the
 quality and timely publication of RFCs, ensuring document
 accessibility, and clarifying lines of authority and responsibility.
 
-{{RFC9280}} was the result of discussion within the Program and
+{{RFC9280}} was the result of discussion within the original Program and
 described version 3 of the RFC Editor Model while remaining
 consistent with {{RFC8729}}.
 As stated earlier, this document obsoletes {{RFC9280}}.
