@@ -194,6 +194,7 @@ In {{rswg-participation}}, it encourages "developers of tools used to author or 
 The following is added to {{rpc-responsibilites}} in this document.
 
 The RPC is responsible for the development of tools and processes used to implement editorial stream policies, in the absence of an RFC with specific requirements.
+The RPC is responsible for detailed technical specifications, for example specific details of text or graphical formats or XML grammar.
 The RPC may designate a team of volunteers and/or employees who implement these operational decisions.
 The RPC is expected to solicit input from experts and community members when making implementation decisions.
 The RPC is required to document implementation decisions in a publicly available place, preferably with rationale.
@@ -1024,6 +1025,7 @@ management, and display of errata to RFCs.
 (The text in the next two paragraphs is added by {{tooling-code}})
 
 The RPC is responsible for the development of tools and processes used to implement editorial stream policies, in the absence of an RFC with specific requirements.
+The RPC is responsible for detailed technical specifications, for example specific details of text or graphical formats or XML grammar.
 The RPC may designate a team of volunteers and/or employees who implement these operational decisions.
 The RPC is expected to solicit input from experts and community members when making implementation decisions.
 The RPC is required to document implementation decisions in a publicly available place, preferably with rationale.
