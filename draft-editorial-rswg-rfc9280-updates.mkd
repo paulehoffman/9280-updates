@@ -1509,5 +1509,6 @@ This document is the product of the RFC Series Working Group.
 Many people in the RSWG participated in the active discussions that led to the changes listed in {{changes-to-9280}}.
 The authors are indebted to them for their contributions.
 
-{{RFC9280}} had additional, extensive acknowledgements.
+{{RFC9280}} was authored by Peter SaintA-ndre.
+It had additional, extensive acknowledgements.
 
