@@ -411,7 +411,7 @@ all RSWG contributions shall be subject to intellectual property
 policies, which must be consistent with those of the IETF as
 specified in {{BCP78}} and {{BCP79}}.
 
-When the RSWG is formed, all discussions shall take place on an open
+All discussions in the RSWG shall take place on an open
 email discussion list, which shall be publicly archived.
 
 The RSWG is empowered to hold in-person, online-only, or hybrid
