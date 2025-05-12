@@ -382,18 +382,18 @@ expected to participate actively.
 
 #### Chairs
 
-The RSWG shall have two chairs, one appointed by the IESG and the
-other appointed by the IAB.  When the RSWG is formed, the chair
-appointed by the IESG shall serve for a term of one (1) year and the
-chair appointed by the IAB shall serve for a term of two (2) years;
+The RSWG has two chairs, one appointed by the IESG and the
+other appointed by the IAB.  When the RSWG was formed, the chair was
+appointed by the IESG to serve for a term of one (1) year and the
+chair appointed by the IAB to serve for a term of two (2) years;
 thereafter, chairs shall serve for a term of two (2) years, with no
-term limits on renewal.  The IESG and IAB shall determine their own
+term limits on renewal.  The IESG and IAB determined their own
 processes for making these appointments, making sure to take account
 of any potential conflicts of interest.  Community members who have
 concerns about the performance of an RSWG Chair should direct their
 feedback to the appropriate appointing body via mechanisms such
-bodies shall specify at the time that the RSWG is formed.  The IESG
-and IAB shall have the power to remove their appointed chairs at
+bodies specified when the RSWG was formed.  The IESG
+and IAB have the power to remove their appointed chairs at
 their discretion at any time and to name a replacement who shall
 serve the remainder of the original chair's term.
 
