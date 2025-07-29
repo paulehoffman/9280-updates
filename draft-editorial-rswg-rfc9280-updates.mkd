@@ -1,7 +1,7 @@
 ---
 title: RFC Editor Model (Version 3)
 abbrev: RFC 9280 updates
-docname: draft-editorial-rswg-rfc9280-updates-04
+docname: draft-editorial-rswg-rfc9280-updates-05
 
 stand_alone: true
 v: 3
@@ -147,16 +147,6 @@ To keep the section numbering the same, the introduction section is much longer,
 
 The rest of this introduction is a list of changes to RFC 9280.
 Those changes are instantiated in the rest of the document, with cross-references between the list of changes and the main body.
-
-## Methods for Updating RFC 9280 {#methods-updating}
-
-{{updates-to-this}} in RFC 9280 says:
-
-> Updates, amendments, and refinements to this document can be produced using the process documented herein but shall be published and operative only after (a) obtaining the agreement of the IAB and the IESG and (b) ensuring that the IETF LLC has no objections regarding its ability to implement any proposed changes.
-
-This sentence is replaced in this document with:
-
-> Updates, amendments, and refinements to this document can be produced using the process documented herein but, unless otherwise specified in this document, shall be published and operative only after (a) obtaining the agreement of the IAB and the IESG and (b) ensuring that the IETF LLC has no objections regarding its ability to implement any proposed changes.
 
 ## RPC Roles and Responsibilities
 
@@ -384,17 +374,12 @@ expected to participate actively.
 #### Chairs
 
 The RSWG has two chairs, one appointed by the IESG and the
-other appointed by the IAB.  When the RSWG was formed, the chair was
-appointed by the IESG to serve for a term of one (1) year and the
-chair appointed by the IAB to serve for a term of two (2) years;
-thereafter, chairs shall serve for a term of two (2) years, with no
-term limits on renewal.  The IESG and IAB determined their own
+other appointed by the IAB.  The IESG and IAB determines their own
 processes for making these appointments, making sure to take account
 of any potential conflicts of interest.  Community members who have
 concerns about the performance of an RSWG Chair should direct their
-feedback to the appropriate appointing body via mechanisms such
-bodies specified when the RSWG was formed.  The IESG
-and IAB have the power to remove their appointed chairs at
+feedback to the appropriate appointing body.  The IESG
+and IAB may remove their appointed chairs at
 their discretion at any time and to name a replacement who shall
 serve the remainder of the original chair's term.
 
@@ -437,10 +422,6 @@ should be considered appropriate.
 
 The IETF LLC is requested to provide necessary tooling to support
 RSWG communication, decision processes, and policies.
-
-The IAB convened the RSWG in 2022 in
-order to formalize the IAB's transfer of authority over the RFC
-Editor Model.
 
 ### RFC Series Approval Board (RSAB)
 
@@ -1249,7 +1230,7 @@ boilerplate to enable the suitable marking of documents so that the
 IETF Trust receives the rights as specified in {{BCP78}}.  These
 procedures needed to also allow authors to indicate either no rights to
 make derivative works or, preferentially, the right to make unlimited
-derivative works from the documents.  It was left to the Trust to
+derivative works from the documents.  It is left to the Trust to
 specify exactly how this shall be clearly indicated in each document.
 
 ## Patent and Trademark Rules for the Editorial Stream
@@ -1357,11 +1338,9 @@ comprehensible to humans for decades or longer.
 RFCs are copyedited, formatted, and then published.
 They may be reissued to maintain a consistent presentation.
 
-# Updates to This Document {#updates-to-this}
+# Updates to This Document
 
-(The text in this section is updated by {{methods-updating}})
-
-Updates, amendments, and refinements to this document can be produced using the process documented herein but, unless otherwise specified in this document, shall be published and operative only after (a) obtaining the agreement of the IAB and the IESG and (b) ensuring that the IETF LLC has no objections regarding its ability to implement any proposed changes.
+Updates, amendments, and refinements to this document can be produced using the process documented herein but shall be published and operative only after (a) obtaining the agreement of the IAB and the IESG and (b) ensuring that the IETF LLC has no objections regarding its ability to implement any proposed changes.
 
 # Changes from Version 2 of the RFC Editor Model {#changes}
 
@@ -1456,7 +1435,7 @@ authority for policy implementation resides with the IETF LLC.
 In practice, the relationships and lines of authority and
 responsibility between the IAB, RSOC, and RSE proved unwieldy
 and somewhat opaque.  To overcome some of these issues, {{RFC9280}}
-dispenses with the RSOC.  References to the RSOC in documents such as
+dispensed with the RSOC.  References to the RSOC in documents such as
 {{RFC8730}} are obsolete.
 
 ## RFC Series Advisory Group (RSAG)
