@@ -1,7 +1,7 @@
 ---
 title: RFC Editor Model (Version 3)
 abbrev: RFC 9280 updates
-docname: draft-editorial-rswg-rfc9280-updates-05
+docname: draft-editorial-rswg-rfc9280-updates-04
 
 stand_alone: true
 v: 3
