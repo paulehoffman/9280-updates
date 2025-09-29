@@ -1,0 +1,14 @@
+During your processing of draft-editorial-rswg-rfc9280-updates, please consider the following. If you can make the changes during the editing process, that's great, but if not, please try to remember them for the AUTH48 notes.
+
+--Paul and Alexis
+
+Section 1.3.1 and Section 7.6 say "...to the greatest extent possible." This should be clarified as "...to the greatest extent possible, as described in Section 2.2 of [RFC9720]."
+
+The draft ignores the fact that RFC 7990 was obsoleted by RFC 9720. This changes the following:
+
+- The "updates" list is currently "7990, 7991, 7992, 7993, 7994, 7995, 7996, 7997, 8729", but should instead be "7991, 7992, 7993, 7994, 7995, 7996, 7997, 8729, 9720". This appears in the document header and in the abstract.
+
+- Section 1.5 should read:
+   All instances of "RFC Editor" or "RFC Series Editor" in
+   [RFC7991], [RFC7992], [RFC7993], [RFC7994], [RFC7995], [RFC7996], and
+   [RFC7997] are replaced by "RFC Production Center (RPC)".
