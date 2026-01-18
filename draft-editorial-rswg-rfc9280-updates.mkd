@@ -246,7 +246,7 @@ A new policy in {{historical}} of this document was added:
 
 ## Purview of the RSWG and RSAB {#purview}
 
-{{policy-definiion}} says:
+{{Section 3 of RFC9280}} says:
 
 > Policies under the purview of the RSWG and RSAB might include, but are not limited to, document formats, processes for publication and dissemination of RFCs, and overall management of the RFC Series.
 
